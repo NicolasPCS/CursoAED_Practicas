@@ -47,11 +47,11 @@ public class FrecuenciasCardiacas {
 
     @Override
     public String toString() {
-        return "Nombre: " + this.nombre +
-                "\nApellido: " + this.apellido +
-                "\nFecha de Nacimiento: " + this.fechaNac +
-                "\nEdad: " + this.edad +
-                "\nFrecuencia cardíaca máxima: " + this.calcularFrecuenciaCardMaxima() + "ppm" +
-                "\nFrecuencia cardíaca esperada: " + this.calcularFrecuenciaCardEsperada() + "ppm";
+        return "\nNombre: " + "\t\t\t\t\t\t" + this.nombre +
+                "\nApellido: " + "\t\t\t\t\t\t" + this.apellido +
+                "\nFecha de Nacimiento: " + "\t\t\t" + this.fechaNac +
+                "\nEdad: " + "\t\t\t\t\t\t\t" + this.edad +
+                "\nFrecuencia cardíaca máxima: " + "\t" + this.calcularFrecuenciaCardMaxima() + "ppm" +
+                "\nFrecuencia cardíaca esperada: " + "\t" + this.calcularFrecuenciaCardEsperada() + "ppm";
     }
 }

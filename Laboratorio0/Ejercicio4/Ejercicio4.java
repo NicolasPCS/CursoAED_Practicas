@@ -19,7 +19,20 @@ public class Ejercicio4 {
             // Calcula y devuelve la frecuencia cardíaca maxima
             // Calcula y devuelve la frecuencia cardíaca esperada
                 // Para calcular la frecuencia cardiaca esperada ver: https://www.vitonica.com/entrenamiento/calcula-tu-frecuencia-cardiaca-maxima
-        FrecuenciasCardiacas f = new FrecuenciasCardiacas("Juan","Peres","4 12 2010");
+        String nombre;
+        String apellido;
+        String fechaNac;
+
+        Scanner s = new Scanner(System.in);
+
+        System.out.print("Ingrese su nombre: ");
+        nombre = s.nextLine();
+        System.out.print("Ingrese su apellido: ");
+        apellido = s.nextLine();
+        System.out.print("Ingrese su fecha de nacimiento (dia mes anio): ");
+        fechaNac = s.nextLine();
+
+        FrecuenciasCardiacas f = new FrecuenciasCardiacas(nombre,apellido,fechaNac);
         System.out.println(f);
 
     }
