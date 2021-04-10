@@ -1,3 +1,8 @@
+package Laboratorio0.Ejercicio4;
+
+import java.util.Date;
+import java.util.Scanner;
+
 public class Ejercicio4 {
     public static void main(String[] args) {
         // Crear clase FrecuenciasCardiaca
@@ -13,5 +18,9 @@ public class Ejercicio4 {
             // Calcula y devuelve la edad de la personas en años
             // Calcula y devuelve la frecuencia cardíaca maxima
             // Calcula y devuelve la frecuencia cardíaca esperada
+                // Para calcular la frecuencia cardiaca esperada ver: https://www.vitonica.com/entrenamiento/calcula-tu-frecuencia-cardiaca-maxima
+        FrecuenciasCardiacas f = new FrecuenciasCardiacas("Juan","Peres","4 12 2010");
+        System.out.println(f);
+
     }
 }

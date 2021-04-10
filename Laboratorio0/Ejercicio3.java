@@ -1,4 +1,5 @@
-import java.util.Arrays;
+package Laboratorio0;
+
 import java.util.Scanner;
 
 public class Ejercicio3 {

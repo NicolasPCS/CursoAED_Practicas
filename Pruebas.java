@@ -15,6 +15,7 @@ public class Pruebas {
 
         Date miFecha= new Date(115, 2, 2);
         System.out.println("Ahora hemos creado un objeto date con la fecha indicada, "+miFecha);
+        System.out.println();
 
     }
 }
