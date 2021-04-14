@@ -8,7 +8,7 @@ public class Coordenada {
         this(0,0);
     }
 
-    public Coordenada(int x, int y) {
+    public Coordenada(double x, double y) {
         this.x = x;
         this.y = y;
     }

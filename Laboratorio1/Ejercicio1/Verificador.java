@@ -31,22 +31,18 @@ public class Verificador {
         /*return !(r1_x2 <= r2_y1 || r1_y2 <= r2_y1 || r1_x1 >= r2_x2 || r1_y1 >= r2_y2 /*&&
                 !(r1_x1 == r2_x1 || r1_x2 == r2_x2 && r1_y1 == r2_y1 || r1_y2 == r2_y2));*/
 
-        // To check if either rectangle is actually a line
-        // For example :  l1 ={-1,0}  r1={1,1}  l2={0,-1}  r2={0,1}
-
         if (r1_x1 == r1_x2 || r1_y1 == r2_y2 || r2_x1 == r2_x2 || r2_y1 == r2_y2)
         {
-            // the line cannot have positive overlap
+            // No debe tener una sobreposición positiva
             return false;
         }
 
-
-        // If one rectangle is on left side of other
+        // Verificamos si un rectángulo esta a lado de otro
         if (r1_x1 >= r2_x2 || r2_x1 >= r1_x2) {
             return false;
         }
 
-        // If one rectangle is above other
+        // Verificamos si un rectángulo esta sobre otro
         if (r1_y1 <= r2_y2 || r2_y1 <= r1_y2) {
             return false;
         }
