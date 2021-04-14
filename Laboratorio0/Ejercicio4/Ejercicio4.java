@@ -34,6 +34,5 @@ public class Ejercicio4 {
 
         FrecuenciasCardiacas f = new FrecuenciasCardiacas(nombre,apellido,fechaNac);
         System.out.println(f);
-
     }
 }
